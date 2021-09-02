@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dd38b0d-7f90-453a-8b1e-8177cf39de4f" name="Default Changelist" comment="VERSION 1">
+    <list default="true" id="0dd38b0d-7f90-453a-8b1e-8177cf39de4f" name="Default Changelist" comment="VERSION 2">
+      <change afterPath="$PROJECT_DIR$/.mocharc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/async.app.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mytest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,20 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+      <selected-paths>
+        <path>
+          <id value="$PROJECT_DIR$/package.json" />
+          <id value="cmdline" />
+        </path>
+      </selected-paths>
+    </layout>
+  </component>
   <component name="ProjectId" id="1xBnbrBJi1U30KiTwXuNHVVd4X0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,11 +82,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.test/app.spec.js">
+  <component name="RunManager" selected="Mocha.test/mytest.js">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/app.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="cmdline" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="cmdline" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="test/app.spec.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -81,8 +112,35 @@
       <test-file>$PROJECT_DIR$/test/app.spec.js</test-file>
       <method v="2" />
     </configuration>
+    <configuration name="test/async.app.spec.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/async.app.spec.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/mytest.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/mytest.js</test-file>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.test/mytest.js" />
+        <item itemvalue="npm.cmdline" />
+        <item itemvalue="Mocha.test/async.app.spec.js" />
         <item itemvalue="Mocha.test/app.spec.js" />
         <item itemvalue="Node.js.app.js" />
       </list>
@@ -99,7 +157,10 @@
       <workItem from="1629837427684" duration="13000" />
       <workItem from="1629837465892" duration="2531000" />
       <workItem from="1629846187022" duration="2194000" />
-      <workItem from="1629848587520" duration="1170000" />
+      <workItem from="1629848587520" duration="1496000" />
+      <workItem from="1630001648415" duration="7450000" />
+      <workItem from="1630091418887" duration="4000" />
+      <workItem from="1630445273695" duration="7372000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1629847679585</created>
@@ -115,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630000616508</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="VERSION 2">
+      <created>1630001001761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630001001761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="VERSION 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="VERSION 1" />
+    <MESSAGE value="VERSION 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="VERSION 2" />
   </component>
 </project>
