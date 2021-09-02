@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dd38b0d-7f90-453a-8b1e-8177cf39de4f" name="Default Changelist" comment="VERSION 2">
-      <change afterPath="$PROJECT_DIR$/.mocharc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/async.app.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mytest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="0dd38b0d-7f90-453a-8b1e-8177cf39de4f" name="Default Changelist" comment="VERSION 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +24,7 @@
           <entry type="LOCAL">
             <value>
               <list>
-                <branch-info source="branch1" />
+                <branch-info source="main" />
               </list>
             </value>
           </entry>
@@ -161,6 +153,7 @@
       <workItem from="1630001648415" duration="7450000" />
       <workItem from="1630091418887" duration="4000" />
       <workItem from="1630445273695" duration="7372000" />
+      <workItem from="1630610535853" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1629847679585</created>
@@ -183,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630001001761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="VERSION 3">
+      <created>1630610569501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630610569501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +205,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="VERSION 1" />
     <MESSAGE value="VERSION 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="VERSION 2" />
+    <MESSAGE value="VERSION 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="VERSION 3" />
   </component>
 </project>

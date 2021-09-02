@@ -1,0 +1,338 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 4,
+    "pending": 1,
+    "failures": 1,
+    "start": "2021-09-01T18:27:37.410Z",
+    "end": "2021-09-01T18:27:38.132Z",
+    "duration": 722,
+    "testsRegistered": 6,
+    "passPercent": 80,
+    "pendingPercent": 16.666666666666664,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f0d87b02-56ed-40df-8b7e-53532ec5a0f8",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5ceabe51-1b41-4d0c-8842-d2add25a09f6",
+          "title": "Suite 2",
+          "fullFile": "/Users/denyskhomenko/WebstormProjects/Chai_anybody-master/test/app.spec.js",
+          "file": "/test/app.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Suite 2\"",
+              "fullTitle": "Suite 2 \"before all\" hook in \"Suite 2\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Set up Of Suite')",
+              "err": {},
+              "uuid": "db9f04a2-db58-473e-939a-5d85b3dbd67b",
+              "parentUUID": "5ceabe51-1b41-4d0c-8842-d2add25a09f6",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook in \"Suite 2\"",
+              "fullTitle": "Suite 2 \"before each\" hook in \"Suite 2\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('setup')",
+              "err": {},
+              "uuid": "330d2f50-f674-4a12-98da-e00d57501569",
+              "parentUUID": "5ceabe51-1b41-4d0c-8842-d2add25a09f6",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"Suite 2\"",
+              "fullTitle": "Suite 2 \"after all\" hook in \"Suite 2\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('Tear down of Suite')",
+              "err": {},
+              "uuid": "c44f6982-648a-439d-97be-9da20e37027f",
+              "parentUUID": "5ceabe51-1b41-4d0c-8842-d2add25a09f6",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook in \"Suite 2\"",
+              "fullTitle": "Suite 2 \"after each\" hook in \"Suite 2\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('teardown')",
+              "err": {},
+              "uuid": "cc4ac702-778a-4438-a25c-b334288c988a",
+              "parentUUID": "5ceabe51-1b41-4d0c-8842-d2add25a09f6",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "add(3,3) should return 6",
+              "fullTitle": "Suite 2 add(3,3) should return 6",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(add(3,3)).to.be.equal(6);\nconsole.log('Success')",
+              "err": {},
+              "uuid": "81bacebb-0c84-4249-bf71-43f74fe75c6b",
+              "parentUUID": "5ceabe51-1b41-4d0c-8842-d2add25a09f6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "81bacebb-0c84-4249-bf71-43f74fe75c6b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "59a10c99-afd3-420b-8387-10a5d2a4bb33",
+          "title": "async tests",
+          "fullFile": "/Users/denyskhomenko/WebstormProjects/Chai_anybody-master/test/async.app.spec.js",
+          "file": "/test/async.app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promise based way",
+              "fullTitle": "async tests promise based way",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e4227c46-29ef-4302-9182-b13ad9539c7c",
+              "parentUUID": "59a10c99-afd3-420b-8387-10a5d2a4bb33",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "async wait based way",
+              "fullTitle": "async tests async wait based way",
+              "timedOut": false,
+              "duration": 383,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//this does not work in async()=> only in function()\n//this.timeout(100)\nconst res = await axios.get('https://reqres.in/api/users/2')\nexpect(res.data.data.email).to.be.equal('janet.weaver@reqres.in')",
+              "err": {},
+              "uuid": "863becc5-c8c6-4059-b950-c9511455ebda",
+              "parentUUID": "59a10c99-afd3-420b-8387-10a5d2a4bb33",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "863becc5-c8c6-4059-b950-c9511455ebda"
+          ],
+          "failures": [],
+          "pending": [
+            "e4227c46-29ef-4302-9182-b13ad9539c7c"
+          ],
+          "skipped": [],
+          "duration": 383,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "84decb74-be6b-48f9-84a8-5ab42d26543d",
+          "title": "hey tests",
+          "fullFile": "/Users/denyskhomenko/WebstormProjects/Chai_anybody-master/test/async.app.spec.js",
+          "file": "/test/async.app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promise based way",
+              "fullTitle": "hey tests promise based way",
+              "timedOut": false,
+              "duration": 112,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(200)\n//to display count of retries\n// console.log(\"Retry attempt number:\",count);\n// count++;\n// this.retries(2)\n// return statement is very important here\nreturn axios.get('https://reqres.in/api/users/2').then(res =>{\n    expect(res.data.data.email).to.be.equal('janet.weaver@reqres.int')\n})",
+              "err": {
+                "message": "AssertionError: expected 'janet.weaver@reqres.in' to equal 'janet.weaver@reqres.int'",
+                "estack": "AssertionError: expected 'janet.weaver@reqres.in' to equal 'janet.weaver@reqres.int'\n    at /Users/denyskhomenko/WebstormProjects/Chai_anybody-master/test/async.app.spec.js:62:47\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+                "diff": "- janet.weaver@reqres.in\n+ janet.weaver@reqres.int\n"
+              },
+              "uuid": "7c0c2801-e3d3-4a31-80f8-d89f1329d65e",
+              "parentUUID": "84decb74-be6b-48f9-84a8-5ab42d26543d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "async wait based way",
+              "fullTitle": "hey tests async wait based way",
+              "timedOut": false,
+              "duration": 104,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//this does not work in async()=> only in function()\n//this.timeout(100)\nconst res = await axios.get('https://reqres.in/api/users/2')\nexpect(res.data.data.email).to.be.equal('janet.weaver@reqres.in')",
+              "err": {},
+              "uuid": "bfc08fbb-4240-4525-9211-6cd2d899a4be",
+              "parentUUID": "84decb74-be6b-48f9-84a8-5ab42d26543d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bfc08fbb-4240-4525-9211-6cd2d899a4be"
+          ],
+          "failures": [
+            "7c0c2801-e3d3-4a31-80f8-d89f1329d65e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 216,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        },
+        {
+          "uuid": "866ea124-39b2-49d9-a190-73e8c863972a",
+          "title": "HEY HEY HEY",
+          "fullFile": "/Users/denyskhomenko/WebstormProjects/Chai_anybody-master/test/mytest.js",
+          "file": "/test/mytest.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promise based way",
+              "fullTitle": "HEY HEY HEY promise based way",
+              "timedOut": false,
+              "duration": 110,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return axios.get('https://reqres.in/api/users/2').then(res => {\n    expect(res.data.data.email).to.be.equal('janet.weaver@reqres.in')\n})",
+              "err": {},
+              "uuid": "60841eb1-4056-46a4-9bf7-bdc91157fff7",
+              "parentUUID": "866ea124-39b2-49d9-a190-73e8c863972a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "60841eb1-4056-46a4-9bf7-bdc91157fff7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 110,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 5000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 5000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.1.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "Test_Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "Report",
+        "reportFilename": "Test_Report"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
