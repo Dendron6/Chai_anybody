@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dd38b0d-7f90-453a-8b1e-8177cf39de4f" name="Default Changelist" comment="VERSION 3" />
+    <list default="true" id="0dd38b0d-7f90-453a-8b1e-8177cf39de4f" name="Default Changelist" comment="VERSION 3">
+      <change afterPath="$PROJECT_DIR$/test/calc.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/chai_spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,10 +85,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.test/mytest.js">
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/app.js" working-dir="$PROJECT_DIR$/src">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Mocha.test/calc.spec.js">
     <configuration name="cmdline" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -90,18 +94,6 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test/app.spec.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/test/app.spec.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="test/async.app.spec.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -114,6 +106,30 @@
       <extra-mocha-options />
       <test-kind>TEST_FILE</test-kind>
       <test-file>$PROJECT_DIR$/test/async.app.spec.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/calc.spec.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/calc.spec.js</test-file>
+      <method v="2" />
+    </configuration>
+    <configuration name="test/chai_spec.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/chai_spec.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="test/mytest.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -130,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.test/calc.spec.js" />
+        <item itemvalue="Mocha.test/chai_spec.js" />
         <item itemvalue="Mocha.test/mytest.js" />
         <item itemvalue="npm.cmdline" />
         <item itemvalue="Mocha.test/async.app.spec.js" />
-        <item itemvalue="Mocha.test/app.spec.js" />
-        <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>

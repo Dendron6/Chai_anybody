@@ -1,14 +1,45 @@
-
-
 function add(a, b) {
-    return a+b;
+    return a + b;
 }
 
-function sub(a, b){
-    return a-b;
+function sub(a, b) {
+    return a - b;
 }
 
-module.exports = {add, sub}
+class Calculator {
+    constructor(name) {
+        this.property = name
+    }
+    get calc(){
+        return this.property
+    }
+    set calc(name){
+        this.property = name
+    }
+    myCalc(a, b, callback){
+        callback(a,b)
+    }
+    sum(a, b) {
+        return a + b;
+    }
+
+    sub(a, b) {
+        return a - b;
+    }
+
+    mul(a, b) {
+        return a * b;
+    }
+
+    div(a, b) {
+        return a / b;
+    }
+}
+
+
+module.exports = {add, sub};
+let myCalc = new Calculator();
+module.exports =  myCalc;
 
 
 
